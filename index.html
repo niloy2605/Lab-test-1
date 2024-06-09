@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- scroll to top -->
+      <button id="btnScrollToTop">
+         <span><i class="fa-solid fa-arrow-up"></i></span>
+      </button>
+    <!-- scroll to top -->
+
+    <!-- side manu bar -->
+      <nav>
+         <div class="container">
+            <div class="row">
+               <span class="add"><i class="fa-solid fa-bars"></i></span>
+
+               <div class="icon">
+                  <span class="moon"><i class="fa-solid fa-moon"></i></span>
+                  <span class="sun"><i class="fa-solid fa-sun"></i></span>
+
+               </div>
+            </div>
+
+          
+         </div>
+         
+      </nav>
+    <!-- side manu bar -->
+
+      <!-- side manu -->
+      <section id="manu">
+          <div class="manu-link">
+             <div class="icon">
+                <span class="crossBtn" ><i class="fa-solid fa-x"></i></span>
+             </div>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">our work</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+      </section>
+      <!-- side manu end -->
+
+      <section id="passwordGenerator">
+         <!-- <div class="container"> -->
+              <div class="wrapper">
+                <input class="input" type="password" placeholder="Password">
+                <div class="btn">
+                    <button class="lock"><i class="fa-solid fa-lock"></i></button>
+                    <button class="unlock"><i class="fa-solid fa-lock-open"></i></button>
+                </div>
+              </div>
+         <!-- </div> -->
+      </section>
+
+      <!-- scroll width -->
+      <div class="card" width="0">
+      </div>
+      <!-- scroll width -->
+
+      <!-- password generator -->
+       <section id="generate-password">
+          <div class="container">
+              <h1>generate a <br> <span>random password</span></h1>
+              <div class="dispaly">
+                <input  type="text" id="password" placeholder="password " >
+                <i  onclick="copyPassword()" class="fa-solid fa-copy"></i>
+              </div>
+              <button onclick="createPassword()" class="btn">generate password</button>
+          </div>
+       </section>
+       <!-- password generator -->
+
+       <!-- rgb color generator  -->
+         <div class="color-generator">
+             <button class="color">Get New Color</button>
+         </div>
+       <!-- rgb color generator  -->
+
+       
+
+    <script src="script.js"></script>
+</body>
+</html>
